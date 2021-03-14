@@ -1,0 +1,34 @@
+
+.uneditable{
+    text-decoration: none;
+    border: none;
+    color: white ;
+    background-color:hsla(214, 10%, 14%,0%);
+    cursor: pointer;
+    
+  }
+  .editorable{
+    border: none;
+   color: white ;
+    background-color:hsl(200, 3%, 17%);
+    cursor: text;
+  
+  }
+
+  tr:hover {
+    cursor: pointer;
+    background-color:hsla(200, 3%, 17%,60%);
+  }
+  .hide{
+   
+    display: none;
+  }
+  
+  .visible{
+   
+    display: visible;
+  }
+  .visible :hover{
+    color:#ffc3a2;
+  
+  }

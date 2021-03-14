@@ -1,0 +1,38 @@
+<div
+  class="form_section bg-dark border rounded ps-3 py-4 shadow-lg p-3 rounded"
+>
+  <h2>Serie hinzufügen</h2>
+  <form class="row g-3 mt-2">
+    <div class="col-md-3">
+      <label for="newShowID" class="form-label px-1 my-0">ID</label>
+      <input
+        type="number"
+        name="newShowID"
+        class="form-control"
+        id="newShowID"
+        min="{{ shows_length + 1 }}"
+        max="{{ shows_length + 1 }}"
+        [value]="shows_length + 1"
+        [(ngModel)]="show.id"
+        required
+      />
+    </div>
+    <div class="col-md-9">
+      <label for="newShowTitle" class="form-label px-1 my-0">Title</label>
+      <input
+        type="text"
+        name="newShowTitle"
+        class="form-control"
+        id="newShowTitle"
+        [(ngModel)]="show.title"
+        required
+      />
+    </div>
+
+    <div class="col-12 pt-4">
+      <button type="submit" (click)="save()" class="btn btn-outline">
+        absenden
+      </button>
+    </div>
+  </form>
+</div>

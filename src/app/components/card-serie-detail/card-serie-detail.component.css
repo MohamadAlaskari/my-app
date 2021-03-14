@@ -1,0 +1,51 @@
+.card {
+  height: 35.4rem;
+  background-color: #425c5a;
+}
+
+.card-body {
+  height: 49%;
+}
+
+.card-text::-webkit-scrollbar {
+  background-color: hsl(200, 3%, 17%);
+  display: block;
+  width: 2px;
+}
+
+/* #212428*/
+.card-text::-webkit-scrollbar-thumb {
+  background-color: #ffc3a2;
+}
+
+.card-text {
+  overflow-y: auto;
+  height: 50%;
+}
+
+h5 {
+  color: #ffc3a2;
+}
+
+h6 {
+  color: #a2bfbd;
+  font-size: small;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  padding-right: 2%;
+}
+
+a {
+  color: #a2bfbd;
+  border-color: #ffc3a2;
+}
+
+a:hover {
+  color: #ffc3a2;
+  font-weight: 400;
+  border-color: #ffc3a2;
+  text-shadow: 3px -12px 20px #ffc3a2;
+}

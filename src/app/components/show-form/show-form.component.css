@@ -1,0 +1,20 @@
+label {
+  font-weight: bold;
+  color: #a2bfbd;
+}
+
+h2 {
+  color: #ffc3a2;
+}
+
+button {
+  color: #a2bfbd;
+  border-color: #ffc3a2;
+}
+
+button:hover {
+  color: #ffc3a2;
+  border-color: #ffc3a2;
+  font-weight: 499;
+  text-shadow: 3px -12px 19px #ffc3a2;
+}
